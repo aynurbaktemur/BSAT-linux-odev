@@ -1,0 +1,9 @@
+[Unit]
+Description=My Service
+
+[Service]
+Type=simple
+ExecStart=/home/aynur/bsm/myscript.sh
+
+[Install]
+WantedBy=multi-user.target
